@@ -1,11 +1,13 @@
 import React from "react";
 import Header from "./components/header/Header";
-import Navigation from "./components/nav/Navigation";
+import Nav from "./components/nav/Nav"
+import About from "./components/about/About"
 const App = () => {
   return (
     <>
       <Header />
-      <Navigation />
+      <Nav />
+      <About />
     </>
   );
 };
