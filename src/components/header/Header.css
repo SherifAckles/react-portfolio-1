@@ -19,6 +19,7 @@ header {
 /* ------------Socials------------ */
 .Socials {
   display: flex;
+  font-size: 2rem;
   align-items: center;
   flex-direction: column;
   gap: 0.8rem;
@@ -40,4 +41,22 @@ header {
   margin: 4rem auto;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* -----------Media Query----------- */
+/* MD devices */
+@media screen and (max-width:1024px) {
+   header{
+    height: 68vh;
+   }
+}
+
+/* SM devices */
+@media screen and (max-width:600px) {
+  header{
+    height: 100vh;
+  }
+  .Socials, .scroll__down{
+display: none;
+  }
 }
