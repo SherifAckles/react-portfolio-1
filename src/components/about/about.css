@@ -39,3 +39,6 @@ border-radius: 1rem;
 padding: 2rem;
 text-align: center;
 }
+.about__card:hover{
+    background: transparent;
+}
