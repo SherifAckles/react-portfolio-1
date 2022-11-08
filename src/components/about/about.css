@@ -47,4 +47,5 @@ transition: var(--transition);
 .about__icon{
     margin-bottom: 1rem;
     font-size: 1.4rem;
+    color: var(--color-primary);
 }
