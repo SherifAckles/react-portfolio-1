@@ -30,4 +30,5 @@
 .about__cards{
     display: grid;
      grid-template-columns: repeat(3, 1fr); /* 1FR is one part of the whole. 1 fraction is 100% of the available space. */
+     gap: 1.5rem;
 }
