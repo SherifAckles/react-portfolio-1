@@ -12,6 +12,6 @@
     var(--color-primary),
     transparent
   );
-  display: grid;
-  place-items: center;
+   display: grid; /* must be grid to excute the next step */
+  place-items: center; /* puts the img in the middle */
 }
