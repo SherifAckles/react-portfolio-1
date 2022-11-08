@@ -1,58 +1,63 @@
 .about__container {
   display: grid;
-   grid-template-columns: 35% 50%; /* it defines the line names and track sizing functions of the grid columns */
+  grid-template-columns: 35% 50%; /* it defines the line names and track sizing functions of the grid columns */
   gap: 16%;
 }
 .about__me {
   width: 80%;
- border-radius:1.7rem ;
- aspect-ratio: 1/1;
+  border-radius: 1.7rem;
+  aspect-ratio: 1/1;
   background: linear-gradient(
     45deg,
     transparent,
     var(--color-primary),
     transparent
   );
-   display: grid; /* must be grid to excute the next step */
+  display: grid; /* must be grid to excute the next step */
   place-items: center; /* puts the img in the middle */
-  
 }
-.about__me-image{
-    width: 100%;
-    border-radius: 1.7rem; 
-     overflow: hidden; /* to excute the border radius we should have the overflow hidden */
-    transform:rotate(-12deg) ;
-    transition: var(--transition);
+.about__me-image {
+  width: 100%;
+  border-radius: 1.7rem;
+  overflow: hidden; /* to excute the border radius we should have the overflow hidden */
+  transform: rotate(-12deg);
+  transition: var(--transition);
 }
-.about__me-image:hover{
-    transform:rotate(0deg)
+.about__me-image:hover {
+  transform: rotate(0deg);
 }
-.about__cards{
-    display: grid;
-     grid-template-columns: repeat(3, 1fr); /* 1FR is one part of the whole. 1 fraction is 100% of the available space. */
-     gap: 1.5rem;
+.about__cards {
+  display: grid;
+  grid-template-columns: repeat(
+    3,
+    1fr
+  ); /* 1FR is one part of the whole. 1 fraction is 100% of the available space. */
+  gap: 1.5rem;
 }
-.about__card{
-background: var(--color-bg-variant);
-border: 1px solid transparent;
-border-radius: 1rem;
-padding: 2rem;
-text-align: center;
-transition: var(--transition);
+.about__card {
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
 }
-.about__card:hover{
-    background: transparent;
-    border-color: var(--color-primary-variant);
+.about__card:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
 }
-.about__icon{
-    margin-bottom: 1rem;
-    font-size: 1.4rem;
-    color: var(--color-primary);
+.about__icon {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: var(--color-primary);
 }
-.about__card h5{
-    font-size: 0.95rem;
+.about__card h5 {
+  font-size: 0.95rem;
 }
-.about__card small{
-    font-size: 0.7rem;
-    color: var(--color-light);
+.about__card small {
+  font-size: 0.7rem;
+  color: var(--color-light);
+}
+.about__content p{
+margin: 2rem 0 2.6rem;
 }
