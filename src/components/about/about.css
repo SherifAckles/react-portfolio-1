@@ -32,3 +32,10 @@
      grid-template-columns: repeat(3, 1fr); /* 1FR is one part of the whole. 1 fraction is 100% of the available space. */
      gap: 1.5rem;
 }
+.about__card{
+background: var(--color-bg-variant);
+border: 1px solid transparent;
+border-radius: 1rem;
+padding: 2rem;
+text-align: center;
+}
