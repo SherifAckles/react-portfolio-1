@@ -44,3 +44,6 @@ transition: var(--transition);
     background: transparent;
     border-color: var(--color-primary-variant);
 }
+.about__icon{
+    margin-bottom: 1rem;
+}
