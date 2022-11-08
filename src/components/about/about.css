@@ -1,7 +1,7 @@
 .about__container {
   display: grid;
   grid-template-columns: 35% 50%;
-  gap: 17%;
+  gap: 16%;
 }
 .about__me {
   width: 100%;
@@ -14,4 +14,8 @@
   );
    display: grid; /* must be grid to excute the next step */
   place-items: center; /* puts the img in the middle */
+  
+}
+.about__me-image{
+    width: 70%;
 }
