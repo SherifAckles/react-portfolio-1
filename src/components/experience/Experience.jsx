@@ -31,7 +31,7 @@ const experience = () => {
 
             <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon " />
-              <h4>Juery</h4>
+              <h4>JQuery</h4>
             </article>
 
             <article className="experience-details">

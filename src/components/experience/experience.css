@@ -37,6 +37,7 @@
 @media screen and (max-width: 1024px) {
   #experience {
     grid-template-columns: 1fr;
+    margin: 0;
   }
   #experience > div {
     width: 80%;
@@ -50,16 +51,23 @@
   }
   .experience__content {
     padding: 1rem;
-    column-gap: 6rem;
+    column-gap: 8rem;
   }
 }
 
 /* SM devices */
 @media screen and (max-width: 600px) {
     #experience{
-        margin-top: 20rem;
+        margin-top: 12rem;
     }
   #experience > div {
     width: 95%;
+   column-gap: 0;
+   
+  }
+  .experience-details{
+    column-gap: 0;
+    gap: 10px;
+    margin: 0 -1rem;
   }
 }
