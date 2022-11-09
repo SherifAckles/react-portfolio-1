@@ -8,7 +8,7 @@ const experience = () => {
       <h2>Experience</h2>
       <div className="experience d-flex justify-content-center">
         <div className="experience__frontend">
-          <h3>Frontend Development</h3>
+          <h3 className="mb-5">Frontend Development</h3>
           <div className="experience__content">
             <article className="experience-details">
               <BsPatchCheckFill />

@@ -1,11 +1,18 @@
-#experience{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-}
+
 #experience > div{
     background:var(--color-bg-variant);
+    width: 50%;
+    margin: auto;
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border:1px solid transparent;
+    transition: var(--transition);
+}
+#experience > div:hover{
+    background:transparent;
+    border-color: var(--color-primary-variant);
+}
+#experience > div h3{
+    text-align: center;
+    color: var(--color-primary);
 }
