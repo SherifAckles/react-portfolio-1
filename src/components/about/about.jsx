@@ -5,7 +5,6 @@ import { FaAward } from "react-icons/fa";
 const about = () => {
   return (
     <section id="about">
-      <h4>Get to know</h4>
       <h2>About Me</h2>
       <div className="container about__container">
         <div className="about__me">
@@ -33,14 +32,16 @@ const about = () => {
               <small>1+ year self taught experience</small>
             </article>
           </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-              consequatur minus deserunt hic rem ad quis nesciunt, itaque, alias
-              velit magnam maxime aspernatur officiis dolorem similique
-              veritatis dolore dicta eius?
-            </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            consequatur minus deserunt hic rem ad quis nesciunt, itaque, alias
+            velit magnam maxime aspernatur officiis dolorem similique veritatis
+            dolore dicta eius?
+          </p>
 
-            <a href="#contact"className="btn btn-primary">Contact Me</a>
+          <a href="#contact" className="btn btn-primary">
+            Contact Me
+          </a>
         </div>
       </div>
     </section>

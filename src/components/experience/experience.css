@@ -1,52 +1,65 @@
+#experience > div {
+  background: var(--color-bg-variant);
+  width: 50%;
+  margin: auto;
+  padding: 3rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+#experience > div:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+}
+#experience > div h3 {
+  text-align: center;
+  color: var(--color-primary);
+}
 
-#experience > div{
-    background:var(--color-bg-variant);
-    width: 40%;
-    margin: auto;
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
-    border:1px solid transparent;
-    transition: var(--transition);
+.experience__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  row-gap: 2rem;
 }
-#experience > div:hover{
-    background:transparent;
-    border-color: var(--color-primary-variant);
+.experience-details {
+  display: flex;
+  gap: 2rem;
 }
-#experience > div h3{
-    text-align: center;
-    color: var(--color-primary);
-}
-.experience__content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10rem;
-    row-gap: 2rem;
-}
-.experience-details{
-    
-    display: flex;
-    gap: 2rem;
-}
-.experience-details-icon{
-    color: var(--color-primary);
-    margin-top: 6px;
+.experience-details-icon {
+  color: var(--color-primary);
+  margin-top: 6px;
+  
 }
 
 /* -----------Media Query----------- */
 /* MD devices */
 @media screen and (max-width: 1024px) {
+  #experience {
+    grid-template-columns: 1fr;
+  }
+  #experience > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+
+  }
+  .experience-details {
+    display: flex;
+    gap: 1rem;
+  }
+  .experience__content {
+    padding: 1rem;
+    column-gap: 6rem;
+  }
+}
+
+/* SM devices */
+@media screen and (max-width: 600px) {
     #experience{
-        grid-template-columns: 1fr;
+        margin-top: 20rem;
     }
-    #experience >div{
-        width: 80%;
-        padding:2rem;
-        margin: 0 auto;
-    }
+  #experience > div {
+    width: 95%;
   }
-  
-  /* SM devices */
-  @media screen and (max-width: 600px) {
-   
-  }
-  
+}
