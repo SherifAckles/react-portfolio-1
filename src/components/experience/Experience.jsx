@@ -13,37 +13,37 @@ const experience = () => {
             <article className="experience-details">
               <BsPatchCheckFill />
               <h4>HTML</h4>
-              <small className="text-light">Experienced</small>
+              
             </article>
 
             <article className="experience-details">
               <BsPatchCheckFill />
               <h4>CSS</h4>
-              <small className="text-light">Experienced</small>
+              
             </article>
 
             <article className="experience-details">
               <BsPatchCheckFill />
               <h4>Bootstrap</h4>
-              <small className="text-light">Experienced</small>
+              
             </article>
 
             <article className="experience-details">
               <BsPatchCheckFill />
               <h4>JavaScript</h4>
-              <small className="text-light">Mid-level</small>
+             
             </article>
 
             <article className="experience-details">
               <BsPatchCheckFill />
               <h4>JQyery</h4>
-              <small className="text-light">Experienced</small>
+              
             </article>
 
             <article className="experience-details">
               <BsPatchCheckFill />
               <h4>React JS</h4>
-              <small className="text-light">Mid-level</small>
+             
             </article>
           </div>
         </div>
