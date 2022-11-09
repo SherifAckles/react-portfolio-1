@@ -1,7 +1,7 @@
 
 #experience > div{
     background:var(--color-bg-variant);
-    width: 50%;
+    width: 40%;
     margin: auto;
     padding: 2.4rem 5rem;
     border-radius: 2rem;
@@ -15,4 +15,10 @@
 #experience > div h3{
     text-align: center;
     color: var(--color-primary);
+}
+.experience__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10rem;
+    row-gap: 2rem;
 }
