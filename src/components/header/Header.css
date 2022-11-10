@@ -9,6 +9,10 @@ header {
   position: relative;
 }
 
+.I{
+  background:var(--color-primary);
+}
+
 /* --------CTA-------- */
 .cta {
   display: flex;

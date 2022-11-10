@@ -11,8 +11,9 @@ const Header = () => {
     const typed = new Typed(el.current, {
       strings: ["Sherif Moustafa", "A frontend Developer"],
       startDelay: 300,
-      typeSpeed: 100,
-      backspeed: 100,
+      typeSpeed: 150,
+      backDelay: 150,
+      backSpeed: 150,
       smartBackspace: true,
       showcursor: false,
       loop: true,
@@ -24,7 +25,7 @@ const Header = () => {
       <div className="container header__container">
         <h1>Hello</h1>
         <h2>
-          I'm <span ref={el}></span>
+          <span className="I">I'm</span> <span ref={el}></span>
         </h2>
 
         <h5 className="text-light">Frontend developer</h5>
