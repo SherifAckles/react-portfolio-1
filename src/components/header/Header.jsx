@@ -3,12 +3,15 @@ import "./header.css";
 import Cta from "./Cta";
 import Me from "../../assets/me.png";
 import Socials from "./Socials";
+import Typed from "typed.js"
+import { useEffect, useRef } from "react";
 const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Sherif Moustafa</h1>
+        <h5>Hello I'm <span className="auto"></span></h5>
+
+        
         <h5 className="text-light">Frontend developer</h5>
         <Cta />
         <Socials />

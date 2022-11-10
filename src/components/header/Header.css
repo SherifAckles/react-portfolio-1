@@ -36,7 +36,7 @@ header {
 /* ------------me------------ */
 .me {
   display: block;
-  background: linear-gradient(var(--color-primary), transparent) ;
+  background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
   margin: 4rem auto;
   overflow: hidden;
@@ -46,18 +46,19 @@ header {
 
 /* -----------Media Query----------- */
 /* MD devices */
-@media screen and (max-width:1024px) {
-   header{
+@media screen and (max-width: 1024px) {
+  header {
     height: 68vh;
-   }
+  }
 }
 
 /* SM devices */
-@media screen and (max-width:600px) {
-  header{
+@media screen and (max-width: 600px) {
+  header {
     height: 100vh;
   }
-  .Socials, .scroll__down{
-display: none;
+  .Socials,
+  .scroll__down {
+    display: none;
   }
 }
