@@ -1,17 +1,32 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./header.css";
 import Cta from "./Cta";
 import Me from "../../assets/me.png";
 import Socials from "./Socials";
-import Typed from "typed.js"
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
+import Typed from "typed.js";
 const Header = () => {
+  const el = useRef(null);
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["Sherif Moustafa", "A frontend Developer"],
+      startDelay: 300,
+      typeSpeed: 100,
+      backspeed: 100,
+      smartBackspace: true,
+      showcursor: false,
+      loop: true,
+    });
+  });
+
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I'm <span className="auto"></span></h5>
+        <h1>Hello</h1>
+        <h2>
+          I'm <span ref={el}></span>
+        </h2>
 
-        
         <h5 className="text-light">Frontend developer</h5>
         <Cta />
         <Socials />
