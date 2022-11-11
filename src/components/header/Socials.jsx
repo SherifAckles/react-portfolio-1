@@ -8,7 +8,7 @@ const Socials = () => {
     <div className="Socials">
       
       <a href="https://linkedin.com" target="_blank"><BsLinkedin /></a>
-      <a href="https://github.com" target="_blank"><BsGithub /></a>
+      <a href="https://github.com/nabesteron" target="_blank"><BsGithub /></a>
       <a href="https://fb.com" target="_blank"><BsFacebook /></a>
     </div>
   );

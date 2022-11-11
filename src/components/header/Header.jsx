@@ -1,9 +1,9 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./header.css";
 import Cta from "./Cta";
 import Me from "../../assets/me.png";
 import Socials from "./Socials";
-import { useEffect } from "react";
+import { useEffect,  useRef } from "react";
 import Typed from "typed.js";
 const Header = () => {
   const el = useRef(null);

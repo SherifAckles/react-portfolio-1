@@ -5,7 +5,7 @@ import { FaAward } from "react-icons/fa";
 const about = () => {
   return (
     <section id="about">
-      <h2>About Me</h2>
+      <h2>My story</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -33,10 +33,7 @@ const about = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            consequatur minus deserunt hic rem ad quis nesciunt, itaque, alias
-            velit magnam maxime aspernatur officiis dolorem similique veritatis
-            dolore dicta eius?
+          An Egyptian archeologist converting his career, relocated to another country, and rather than excavating monuments sites, he loves excavating code.
           </p>
 
           <a href="#contact" className="btn btn-primary">
