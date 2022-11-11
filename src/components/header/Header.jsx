@@ -41,5 +41,5 @@ const Header = () => {
     </header>
   );
 };
-
+// cool
 export default Header;
