@@ -8,7 +8,7 @@ import Typed from "typed.js";
 const Header = () => {
   const el = useRef(null);
   useEffect(() => {
-    const typed = new Typed(el.current, {
+    var typed = new Typed(el.current, {
       strings: ["Sherif Moustafa", "A frontend Developer"],
       startDelay: 300,
       typeSpeed: 150,
