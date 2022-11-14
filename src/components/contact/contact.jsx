@@ -11,7 +11,7 @@ const contact = () => {
       <div className="container-contact">
         <div className="contact-option">
           <article className="contact-option">
-            <MdOutlineEmail />
+            <MdOutlineEmail className="contact-option-icon"/>
             <h4>Email</h4>
             <h5>sherif.goma89@gmail.com</h5>
             <a href="mailto:sherif.goma89@gmail.com" target="_blank">
@@ -19,7 +19,7 @@ const contact = () => {
             </a>
           </article>
           <article className="contact-option">
-            <MdOutlineEmail />
+            <MdOutlineEmail className="contact-option-icon"/>
             <h4>Email</h4>
             <h5>sherif.goma89@gmail.com</h5>
             <a href="mailto:sherif.goma89@gmail.com" target="_blank">
@@ -27,7 +27,7 @@ const contact = () => {
             </a>
           </article>
           <article className="contact-option">
-            <BsWhatsapp />
+            <BsWhatsapp className="contact-option-icon"/>
             <h4>Whatsapp</h4>
             <h5>+57 313 843 0910</h5>
             <a
