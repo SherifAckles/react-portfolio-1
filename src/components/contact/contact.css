@@ -6,3 +6,21 @@
     font-weight:300;
     font-size: 2rem;
 }
+
+.container-contact{
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+.contact-option{
+background: var(--color-bg-variant);
+padding: 1.2rem;
+border-radius: 1.2rem;
+text-align: center;
+border: 1px solid transparent;
+}
+
+.contact-option:hover{
+
+}

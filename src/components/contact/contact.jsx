@@ -8,7 +8,7 @@ const contact = () => {
     <section id="contact">
       <h5>Get in touch</h5>
       <h2>Contact Me</h2>
-      <div className="container">
+      <div className="container-contact">
         <div className="contact-option">
           <article className="contact-option">
             <MdOutlineEmail />
