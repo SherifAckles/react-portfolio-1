@@ -9,6 +9,7 @@ import Testimonial from "./components/testimonial/Testimonial";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer"
 
+
 const App = () => {
   return (
     <>
@@ -21,6 +22,7 @@ const App = () => {
       <Testimonial />
       <Contact />
       <Footer />
+      
     </>
   );
 };

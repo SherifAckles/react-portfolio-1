@@ -1,11 +1,11 @@
 #testimonial{
     text-align: center;
-    display: flex;
     justify-content: center;
     padding: 7% 15%;
 }
 
-.calvin{
-    width: 100%;
-    margin: 10%;
+.avatar {
+  width: 20%;
+  display: block;
+  margin: auto;
 }
