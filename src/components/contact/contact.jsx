@@ -8,8 +8,8 @@ const contact = () => {
     <section id="contact">
       <h5>Get in touch</h5>
       <h2>Contact Me</h2>
-      <div className="container-contact">
-        <div className="contact-option">
+      <div className="container contact__container">
+        <div className="contact-options">
           <article className="contact-option">
             <MdOutlineEmail className="contact-option-icon"/>
             <h4>Email</h4>
