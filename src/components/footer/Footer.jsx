@@ -21,7 +21,9 @@ const Footer = () => {
     <a href="https://instagram.com"><AiFillInstagram /></a>
     <a href="https://twitter.com"><AiFillTwitterSquare /></a>
   </div>
-  
+  <div className="footer-copyright">
+    <small>&copy;Sherif Ackles</small>
+  </div>
 </ul>
 
 
