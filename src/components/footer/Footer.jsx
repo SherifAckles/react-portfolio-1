@@ -2,19 +2,23 @@ import React from 'react'
 import "./footer.css"
 const Footer = () => {
   return (
-      <footer class="text-center text-white footer">
-    
-  {/* <!-- Grid container --> */}
-  <div class="container "></div>
-  {/* <!-- Grid container --> */}
+      <footer>
+<a href="#" className='footer-logo'>Ackles</a>
+<ul className='footer-links'>
+  <li><a href="#"></a>Home</li>
+  <li><a href="#about"></a>About</li>
+  <li><a href="#experience"></a>Experience</li>
+  <li><a href="#services"></a>Services</li>
+  <li><a href="#portfolio"></a>Portfolio</li>
+  <li><a href="#testimonial"></a>Testimonial</li>
+  <li><a href="#contact"></a>Contact</li>
+  
+</ul>
 
-  {/* <!-- Copyright --> */}
-  <div class="text-center p-3 Copyright">
-    © 2022 Copyright:
-    <a class="text-white" href="https://github.com/nabesteron"> @nabester.com</a>
-  </div>
-  {/* <!-- Copyright --> */}
-</footer>
+
+
+
+      </footer>
     
   )
 }
