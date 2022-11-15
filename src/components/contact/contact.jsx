@@ -2,6 +2,7 @@ import React from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
+import emailjs from "emailjs-com"
 
 const contact = () => {
   return (
