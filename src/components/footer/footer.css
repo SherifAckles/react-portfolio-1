@@ -29,3 +29,23 @@ footer a{
     gap: 1rem;
     margin-bottom: 4rem;
 }
+
+.footer-social a{
+    background-color: var(--color-bg);
+    color: var(--color-white);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.footer-social a:hover{
+    background-color: transparent;
+    color: var(--color-bg);
+    border-color: var(--color-bg);
+}
+
+.footer-copyright{
+    margin-bottom: 4rem;
+    color: var(--color-bg);
+}
