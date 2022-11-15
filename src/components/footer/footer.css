@@ -3,7 +3,7 @@ footer{
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem ;
-    margin-top: 7rem;
+    margin-top: 10rem;
 }
 footer a{
     color: var(--color-bg);
@@ -49,3 +49,28 @@ footer a{
     margin-bottom: 4rem;
     color: var(--color-bg);
 }
+
+/* -----------Media Query----------- */
+/* MD devices */
+@media screen and (max-width: 1024px) {
+    footer{
+        margin-top: 12.5rem;
+    }
+}
+
+/* SM devices */
+@media screen and (max-width: 600px) {
+
+    footer{
+        margin-top: 25rem;
+    }
+      .footer-links{
+          flex-direction: column;
+          gap: 1.5rem;
+      }
+      
+      .footer-social{
+          margin-bottom: 2.6rem;
+      }
+    
+  }
