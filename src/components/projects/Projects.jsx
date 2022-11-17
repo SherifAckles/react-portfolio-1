@@ -8,8 +8,8 @@ const Projects = () => {
         <article className='project-item'>
           <div className="project-image"></div>
           <h3>Project name</h3>
-          <a href="http://github.com" className='btn'>Github</a>
-          <a href="http://github.com" className='btn btn-primary'>Live Demo</a>
+          <a href="http://github.com" className='btn' target="_blank" rel="noreferrer">Github</a>
+           <a href="http://github.com" className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a> {/*image projects link */}
 
         </article>
       </div>
