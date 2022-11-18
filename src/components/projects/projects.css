@@ -8,8 +8,8 @@
 
 .project-item {
   background: var(--color-bg-variant);
-  padding: 7% 15%;
-  border-radius: 1rem;
+  padding: 1.2rem;
+  border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
 }
@@ -17,11 +17,15 @@
 .project-item:hover {
   border-color: var(--color-primary-variant);
   background: transparent;
-  border-radius: 1rem;
+  
+}
+.project-img{
+    border-radius: 1rem;
+    overflow: hidden;
 }
 
 .project-img:hover {
-  width: 16rem;
+  width: 20rem;
 }
 
 .project-item h3 {
