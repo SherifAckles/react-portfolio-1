@@ -5,7 +5,7 @@ import Crm from "../../assets/crm.jpg";
 const Projects = () => {
   return (
     <section id="projects">
-      <h5>My recent projects</h5>
+      <h2>My recent projects</h2>
       <div className="project-container">
         <article className="project-item">
           <div className="project-img">

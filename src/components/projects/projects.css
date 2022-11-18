@@ -2,8 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
-  
-   padding: 7% 15%; 
+  padding: 7% 15%;
 }
 
 .project-item {
@@ -17,11 +16,10 @@
 .project-item:hover {
   border-color: var(--color-primary-variant);
   background: transparent;
-  
 }
-.project-img{
-    border-radius: 1rem;
-    overflow: hidden;
+.project-img {
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
 .project-img:hover {
@@ -41,7 +39,7 @@
 /* -----------Media Query----------- */
 /* MD devices */
 @media screen and (max-width: 1024px) {
-  .project-container{
+  .project-container {
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
   }
@@ -49,10 +47,7 @@
 
 /* SM devices */
 @media screen and (max-width: 600px) {
-  #projects{
-    margin-bottom: 90rem;
-  }
-  .project-container{
+  .project-container {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
