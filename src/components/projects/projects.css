@@ -1,0 +1,35 @@
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  padding: 6% 6%;
+  padding: 7% 15%;
+}
+
+.project-item {
+  background: var(--color-bg-variant);
+  padding: 7% 15%;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.project-item:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
+  border-radius: 1rem;
+}
+
+.project-img:hover {
+  width: 16rem;
+}
+
+.project-item h3 {
+  margin: 1.2rem 0 2rem;
+}
+
+.project-item-cta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
