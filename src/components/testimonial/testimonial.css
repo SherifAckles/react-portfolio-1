@@ -1,10 +1,8 @@
 #testimonial {
   padding: 5% 10%;
-  
   width: 80%;
-  
   text-align: center;
-margin: 8rem auto;
+  margin: 8rem auto ;
   border-radius: 3rem;
   color: var(--color-white);
   opacity: 90%;
@@ -17,6 +15,11 @@ margin: 8rem auto;
   background: transparent;
 }
 
+.test-h2{
+ text-align: center;
+ color: var(--color-primary);
+}
+
 #testimonial .avatar:hover {
   width: 10rem;
 }
@@ -24,19 +27,17 @@ margin: 8rem auto;
 .avatar {
   width: 20%;
   border-radius: 100%;
- display: block;
- margin:1rem auto;
- 
+  display: block;
+  margin: 1rem auto;
+
   border: 2px solid var(--color-primary);
 }
 
 .testimonials {
-  
   text-align: center;
   display: block;
 }
 
-.from-where{
+.from-where {
   margin-bottom: 2rem;
-  
 }

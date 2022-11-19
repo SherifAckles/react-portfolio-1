@@ -1,17 +1,18 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import "./testimonial.css"
+import "./testimonial.css";
 import Carl from "../../assets/carl.png";
 import Jane from "../../assets/janetest.png";
 import KellyM from "../../assets/KellyM.png";
 
 function Testimonial() {
   return (
+    <div>
+      <h2 className="test-h2">Testimonials</h2>
     <section id="testimonial">
-<h2>Testimonials</h2>
-     <Carousel> 
+
+      <Carousel>
         <Carousel.Item>
-          
           <p className="testimonials">
             Nulla vitae elit libero, a pharetra augue mollis interdum.
           </p>
@@ -37,11 +38,10 @@ function Testimonial() {
           <p className="from-where">
             <em>Jacky Milano, New York</em>
           </p>
-        
-          
         </Carousel.Item>
       </Carousel>
-      </section>
+    </section>
+    </div>
   );
 }
 export default Testimonial;
