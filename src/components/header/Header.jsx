@@ -3,13 +3,13 @@ import "./header.css";
 import Cta from "./Cta";
 import Me from "../../assets/me.png";
 import Socials from "./Socials";
-import { useEffect,  useRef } from "react";
+import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 const Header = () => {
   const el = useRef(null);
   useEffect(() => {
     var typed = new Typed(el.current, {
-      strings: ["Sherif Moustafa", "A frontend Developer"],
+      strings: ["Sherif Moustafa", "A frontend Developer", "a Painter"],
       startDelay: 300,
       typeSpeed: 150,
       backDelay: 150,
@@ -28,7 +28,6 @@ const Header = () => {
           <span className="I">I'm</span> <span ref={el}></span>
         </h2>
 
-        <h5 className="text-light">Frontend developer</h5>
         <Cta />
         <Socials />
         <div className="me">

@@ -2,12 +2,13 @@
 
 #experience > div {
   background: var(--color-bg-variant);
-  width: 50%;
+  width: 60%;
   margin: auto;
-  padding: 5rem 0;
+  padding: 4rem 0;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  opacity: 90%;
 }
 #experience > div:hover {
   background: transparent;
@@ -15,22 +16,25 @@
 }
 #experience > div h3 {
   text-align: center;
+ padding-bottom: 1rem;
   color: var(--color-primary);
 }
 
 .experience__content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 6rem;
-  row-gap: 2rem;
+  gap: 12rem;
+  row-gap: 3rem;
 }
 .experience-details {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 .experience-details-icon {
   color: var(--color-primary);
   margin-top: 6px;
+  
+  
   
 }
 

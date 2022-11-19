@@ -7,10 +7,12 @@ import KellyM from "../../assets/KellyM.png";
 
 function Testimonial() {
   return (
-    <section id="testemonial">
-      <Carousel>
+    <section id="testimonial">
+<h2>Testimonials</h2>
+     <Carousel> 
         <Carousel.Item>
-          <p className="testemonials">
+          
+          <p className="testimonials">
             Nulla vitae elit libero, a pharetra augue mollis interdum.
           </p>
           <img className="avatar" src={Carl} alt="First slide" />
@@ -19,7 +21,7 @@ function Testimonial() {
           </p>
         </Carousel.Item>
         <Carousel.Item>
-          <p className="testemonials">
+          <p className="testimonials">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
           <img className="avatar" src={Jane} alt="Second slide" />
@@ -28,16 +30,18 @@ function Testimonial() {
           </p>
         </Carousel.Item>
         <Carousel.Item>
-          <p className="testemonials">
+          <p className="testimonials">
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
           <img className="avatar" src={KellyM} alt="Third slide" />
           <p className="from-where">
             <em>Jacky Milano, New York</em>
           </p>
+        
+          
         </Carousel.Item>
       </Carousel>
-    </section>
+      </section>
   );
 }
 export default Testimonial;

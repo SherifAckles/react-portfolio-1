@@ -11,6 +11,7 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  opacity: 90%;
 }
 
 .project-item:hover {
