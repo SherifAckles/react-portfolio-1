@@ -2,6 +2,7 @@ import React, { useRef as UseRef } from 'react';
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
+import {FiSmartphone} from "react-icons/fi"
 import emailjs from "emailjs-com";
 
 const contact = () => {
@@ -30,9 +31,9 @@ const contact = () => {
             </a>
           </article>
           <article className="contact-option">
-            <MdOutlineEmail className="contact-option-icon" />
-            <h4>Email</h4>
-            <h5>sherif.goma89@gmail.com</h5>
+            <FiSmartphone className="contact-option-icon" />
+            <h4>Phone Number</h4>
+            <h5>+57 313 843 0910</h5>
             <a href="mailto:sherif.goma89@gmail.com" target="_blank" rel="noreferrer">
               Send a message
             </a>
@@ -53,14 +54,14 @@ const contact = () => {
           <input
             type="text"
             name="name"
-            placeholder="Your full name"
+            placeholder="Name"
             required
           />
-          <input type="email" name="email" placeholder="Your email" required />
+          <input type="email" name="email" placeholder="Email" required />
           <textarea
             name="message"
             rows="7"
-            placeholder="Your message"
+            placeholder="Message is linked to emailjs, so I'll get it."
             required
           ></textarea>
           <button type="submit" className="btn btn-primary">

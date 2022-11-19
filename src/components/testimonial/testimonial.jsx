@@ -7,7 +7,7 @@ import KellyM from "../../assets/KellyM.png";
 
 function Testimonial() {
   return (
-    <div>
+    <div id="testimonials">
       <h2 className="test-h2">Testimonials</h2>
     <section id="testimonial">
 

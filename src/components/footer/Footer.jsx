@@ -35,7 +35,7 @@ const Footer = () => {
       </ul>
 
       <div className="footer-social">
-        <a href="https://facebook.com">
+        <a href="https://facebook.com/Jensen.rose.Ackles">
           <AiFillFacebook />
         </a>
         <a href="https://instagram.com">

@@ -22,6 +22,7 @@ const Header = () => {
 
   return (
     <header>
+      <h2>hello</h2>
       <div className="container header__container">
         <h1>Hello</h1>
         <h2>
