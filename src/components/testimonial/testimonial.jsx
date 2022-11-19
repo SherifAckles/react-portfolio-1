@@ -1,51 +1,43 @@
 import React from "react";
-import Calvin from "../../assets/calvin.png";
-import Jacktest from "../../assets/jacktest.png";
-import Jane from "../../assets/janetest.png";
-import Wanda from "../../assets/wanda.png";
-
-import "./testimonial.css";
 import Carousel from "react-bootstrap/Carousel";
+import "./testimonial.css"
+import Carl from "../../assets/carl.png";
+import Jane from "../../assets/janetest.png";
+import KellyM from "../../assets/KellyM.png";
 
-function UncontrolledExample() {
+function Testimonial() {
   return (
-    <section id="testimonial">
+    <section id="testemonial">
       <Carousel>
         <Carousel.Item>
-          <img className="avatar" src={Calvin} alt="First slide" />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
+          <p className="testemonials">
+            Nulla vitae elit libero, a pharetra augue mollis interdum.
+          </p>
+          <img className="avatar" src={Carl} alt="First slide" />
+          <p className="from-where">
+            <em>Jacky Milano, New York</em>
+          </p>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="avatar" src={Jacktest} alt="Second slide" />
-
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
+          <p className="testemonials">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <img className="avatar" src={Jane} alt="Second slide" />
+          <p className="from-where">
+            <em>Jacky Milano, New York</em>
+          </p>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="avatar" src={Jane} alt="Third slide" />
-
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="avatar" src={Wanda} alt="First slide" />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
+          <p className="testemonials">
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+          <img className="avatar" src={KellyM} alt="Third slide" />
+          <p className="from-where">
+            <em>Jacky Milano, New York</em>
+          </p>
         </Carousel.Item>
       </Carousel>
     </section>
   );
 }
-
-export default UncontrolledExample;
+export default Testimonial;
