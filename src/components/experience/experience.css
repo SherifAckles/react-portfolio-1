@@ -1,5 +1,3 @@
-
-
 #experience > div {
   background: var(--color-bg-variant);
   width: 60%;
@@ -16,7 +14,7 @@
 }
 #experience > div h3 {
   text-align: center;
- padding-bottom: 1rem;
+  padding-bottom: 1rem;
   color: var(--color-primary);
 }
 
@@ -33,9 +31,6 @@
 .experience-details-icon {
   color: var(--color-primary);
   margin-top: 6px;
-  
-  
-  
 }
 
 /* -----------Media Query----------- */
@@ -49,7 +44,6 @@
     width: 80%;
     padding: 2rem;
     margin: 0 auto;
-
   }
   .experience-details {
     display: flex;
@@ -63,15 +57,14 @@
 
 /* SM devices */
 @media screen and (max-width: 600px) {
-    #experience{
-        margin-top: 5rem;
-    }
+  #experience {
+    margin-top: 5rem;
+  }
   #experience > div {
     width: 95%;
-   column-gap: 0;
-   
+    column-gap: 0;
   }
-  .experience-details{
+  .experience-details {
     column-gap: 0;
     gap: 10px;
     margin: 0 -1rem;

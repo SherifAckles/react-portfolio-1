@@ -29,7 +29,7 @@
 .about__cards {
   display: grid;
   grid-template-columns: repeat(
-    3,
+    2,
     1fr
   ); /* 1FR is one part of the whole. 1 fraction is 100% of the available space. */
   gap: 1.5rem;
@@ -83,16 +83,16 @@
 @media screen and (max-width: 600px) {
   .about__me {
     width: 65%;
-    margin:0 auto 3rem ;
+    margin: 0 auto 3rem;
   }
-.about__cards{
+  .about__cards {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
-}
-.about__content{
+  }
+  .about__content {
     text-align: center;
-}
-.about__content p{
+  }
+  .about__content p {
     margin: 1.5rem 0;
-}
+  }
 }

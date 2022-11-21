@@ -8,11 +8,11 @@ header {
   text-align: center;
   position: relative;
 }
- .header__container > h1{
+.header__container > h1 {
   letter-spacing: 5px;
-} 
-.I{
-  background:var(--color-primary);
+}
+.I {
+  background: var(--color-primary);
 }
 
 /* --------CTA-------- */

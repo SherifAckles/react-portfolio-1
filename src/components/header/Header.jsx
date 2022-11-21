@@ -10,7 +10,12 @@ const Header = () => {
   const el = useRef(null);
   useEffect(() => {
     var typed = new Typed(el.current, {
-      strings: ["Sherif Moustafa", "A frontend Developer", "a Painter", "Archeologist"],
+      strings: [
+        "Sherif Moustafa",
+        "A frontend Developer",
+        "a Painter",
+        "Archeologist",
+      ],
       startDelay: 300,
       typeSpeed: 150,
       backDelay: 150,

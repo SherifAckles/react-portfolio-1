@@ -6,7 +6,7 @@ import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { AiOutlineMessage } from "react-icons/ai";
-import { AiOutlineUsergroupDelete } from "react-icons/ai"
+import { AiOutlineUsergroupDelete } from "react-icons/ai";
 import { useState } from "react";
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");

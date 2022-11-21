@@ -2,7 +2,7 @@
   padding: 5% 10%;
   width: 80%;
   text-align: center;
-  margin: 8rem auto ;
+  margin: 8rem auto;
   border-radius: 3rem;
   color: var(--color-white);
   opacity: 90%;
@@ -15,9 +15,9 @@
   background: transparent;
 }
 
-.test-h2{
- text-align: center;
- color: var(--color-primary);
+.test-h2 {
+  text-align: center;
+  color: var(--color-primary);
 }
 
 #testimonial .avatar:hover {

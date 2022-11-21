@@ -13,23 +13,23 @@ const Projects = () => {
           </div>
           <h3>CRM TOOL</h3>
           <div className="project-item-cta">
-          <a
-            href="https://github.com/MA5TERMIND2020/CRM-Tool"
-            className="btn"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Github
-          </a>
-          <a
-            href="http://github.com"
-            className="btn btn-primary"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Live Demo
-          </a>{" "}
-          {/*image projects link */}
+            <a
+              href="https://github.com/MA5TERMIND2020/CRM-Tool"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="http://github.com"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>{" "}
+            {/*image projects link */}
           </div>
         </article>
 
@@ -39,23 +39,23 @@ const Projects = () => {
           </div>
           <h3>CRM TOOL</h3>
           <div className="project-item-cta">
-          <a
-            href="https://github.com/MA5TERMIND2020/CRM-Tool"
-            className="btn"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Github
-          </a>
-          <a
-            href="http://github.com"
-            className="btn btn-primary"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Live Demo
-          </a>{" "}
-          {/*image projects link */}
+            <a
+              href="https://github.com/MA5TERMIND2020/CRM-Tool"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="http://github.com"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>{" "}
+            {/*image projects link */}
           </div>
         </article>
 
@@ -65,23 +65,23 @@ const Projects = () => {
           </div>
           <h3>CRM TOOL</h3>
           <div className="project-item-cta">
-          <a
-            href="https://github.com/MA5TERMIND2020/CRM-Tool"
-            className="btn"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Github
-          </a>
-          <a
-            href="http://github.com"
-            className="btn btn-primary"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Live Demo
-          </a>{" "}
-          {/*image projects link */}
+            <a
+              href="https://github.com/MA5TERMIND2020/CRM-Tool"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="http://github.com"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>{" "}
+            {/*image projects link */}
           </div>
         </article>
 
@@ -91,23 +91,23 @@ const Projects = () => {
           </div>
           <h3>CRM TOOL</h3>
           <div className="project-item-cta">
-          <a
-            href="https://github.com/MA5TERMIND2020/CRM-Tool"
-            className="btn"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Github
-          </a>
-          <a
-            href="http://github.com"
-            className="btn btn-primary"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Live Demo
-          </a>{" "}
-          {/*image projects link */}
+            <a
+              href="https://github.com/MA5TERMIND2020/CRM-Tool"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="http://github.com"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>{" "}
+            {/*image projects link */}
           </div>
         </article>
 
@@ -117,23 +117,23 @@ const Projects = () => {
           </div>
           <h3>CRM TOOL</h3>
           <div className="project-item-cta">
-          <a
-            href="https://github.com/MA5TERMIND2020/CRM-Tool"
-            className="btn"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Github
-          </a>
-          <a
-            href="http://github.com"
-            className="btn btn-primary"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Live Demo
-          </a>{" "}
-          {/*image projects link */}
+            <a
+              href="https://github.com/MA5TERMIND2020/CRM-Tool"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="http://github.com"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>{" "}
+            {/*image projects link */}
           </div>
         </article>
 
@@ -143,27 +143,25 @@ const Projects = () => {
           </div>
           <h3>CRM TOOL</h3>
           <div className="project-item-cta">
-          <a
-            href="https://github.com/MA5TERMIND2020/CRM-Tool"
-            className="btn"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Github
-          </a>
-          <a
-            href="http://github.com"
-            className="btn btn-primary"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Live Demo
-          </a>{" "}
-          {/*image projects link */}
+            <a
+              href="https://github.com/MA5TERMIND2020/CRM-Tool"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="http://github.com"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>{" "}
+            {/*image projects link */}
           </div>
         </article>
-        
-        
       </div>
     </section>
   );
