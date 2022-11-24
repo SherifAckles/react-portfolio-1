@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import "./Header.css";
-import Cta from "./cta";
+import Cta from "./Cta";
 import Me from "../../assets/me.png";
 import Socials from "./Socials";
 import { useEffect, useRef } from "react";

@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
-import "./about.css";
+import "./About.css";
 import Me from "../../assets/me.jpg";
 import { FaAward } from "react-icons/fa";
 import { FaUniversity } from "react-icons/fa";

@@ -1,5 +1,5 @@
 import React, { useRef as UseRef } from "react";
-import "./contact.css";
+import "./Contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
 import { FiSmartphone } from "react-icons/fi";

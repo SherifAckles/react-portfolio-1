@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import "./projects.css";
+import "./Projects.css";
 import Crm from "../../assets/crm.jpg";
 const Projects = () => {
   return (
