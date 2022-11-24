@@ -1,7 +1,10 @@
+#experience{
+  margin: 8rem;
+}
 #experience > div {
   background: var(--color-bg-variant);
   width: 60%;
-  margin: auto;
+  margin:6.5rem auto 0;
   padding: 4rem 0;
   border-radius: 2rem;
   border: 1px solid transparent;
