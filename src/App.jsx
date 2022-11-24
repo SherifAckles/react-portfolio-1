@@ -1,4 +1,4 @@
-import Header from "./components/header/header";
+import Header from "./components/header/Header";
 import Nav from "./components/nav/nav";
 import About from "./components/about/about";
 import Experience from "./components/experience/experience";
