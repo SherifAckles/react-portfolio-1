@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import "./Testimonial.css";
+import "./testimonial.css";
 import Carl from "../../assets/carl.png";
 import Jane from "../../assets/janetest.png";
 import KellyM from "../../assets/KellyM.png";
