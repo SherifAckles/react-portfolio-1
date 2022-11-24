@@ -3,7 +3,7 @@ import React from "react";
 import "./header.css";
 import Cta from "./cta";
 import Me from "../../assets/me.png";
-import Socials from "./socials";
+import Socials from "./Socials";
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 const Header = () => {
