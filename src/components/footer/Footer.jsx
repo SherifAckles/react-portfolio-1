@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import "./Footer.css";
+import "./footer.css";
 import { AiFillFacebook } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiFillTwitterSquare } from "react-icons/ai";
