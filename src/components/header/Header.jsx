@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import "./header.css";
+import "./Header.css";
 import Cta from "./cta";
 import Me from "../../assets/me.png";
 import Socials from "./Socials";
