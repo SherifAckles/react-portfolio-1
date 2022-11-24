@@ -3,6 +3,7 @@ import React from "react";
 import "./projects.css";
 import Crm from "../../assets/crm.jpg";
 import Simon from "../../assets/simon.png";
+import Guess from "../../assets/guess.png";
 const Projects = () => {
   return (
     <section id="projects">
@@ -62,12 +63,12 @@ const Projects = () => {
 
         <article className="project-item">
           <div className="project-img">
-            <img src={Crm} />
+            <img src={Guess} />
           </div>
-          <h3>CRM TOOL</h3>
+          <h3>Guess the number game</h3>
           <div className="project-item-cta">
             <a
-              href="https://github.com/MA5TERMIND2020/CRM-Tool"
+              href="https://github.com/nabesteron/Guess-the-number-game"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -75,7 +76,7 @@ const Projects = () => {
               Github
             </a>
             <a
-              href="http://github.com"
+              href="https://guess-the-number-game-sherif-moustafa.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
