@@ -27,11 +27,12 @@ function Testimonial() {
           </Carousel.Item>
           <Carousel.Item>
             <p className="testimonials">
-              We have the fortune of working with Sherif on a very regular basis.
-              Every single project is done in a timely fashion and is delivered
-              exactly as is outlined. Beyond that, his development skills and
-              expertise make him an invaluable part of our process. We
-              absolutely offer our highest possible recommendation.
+              We have the fortune of working with Sherif on a very regular
+              basis. Every single project is done in a timely fashion and is
+              delivered exactly as is outlined. Beyond that, his development
+              skills and expertise make him an invaluable part of our process.
+              We absolutely offer our highest possible recommendation. Really
+              such a great job.
             </p>
             <img className="avatar" src={Jane} alt="Second slide" />
             <p className="from-where">
@@ -40,12 +41,13 @@ function Testimonial() {
           </Carousel.Item>
           <Carousel.Item>
             <p className="testimonials">
-              Working with Sherif was better than expected and we had really
-              high expectations. He is an incredibly talented developer but what
-              really makes him stand out is his work ethic and steady approach.
-              Time after time, and without us asking, he added enhancements and
-              improvements that resulted in a better end product for us and our
-              clients.
+              Working with Sherif was better than expected.He is an incredibly
+              talented developer but what really makes him stand out is his work
+              ethic and steady approach. Time after time, and without us asking,
+              he added enhancements and improvements that resulted in a better
+              end product for us and our clients.
+              Thank you so much, and looking forward to work with us again.
+              
             </p>
             <img className="avatar" src={KellyM} alt="Third slide" />
             <p className="from-where">

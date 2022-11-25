@@ -1,5 +1,5 @@
 #testimonial {
-  padding: 5% 10%;
+  padding: 3% 10%;
   width: 80%;
   text-align: center;
   margin: 8rem auto;
@@ -40,4 +40,12 @@
 
 .from-where {
   margin-bottom: 2rem;
+}
+
+/* SM devices */
+@media screen and (max-width: 600px) {
+  .carousel-control-prev-icon, .carousel-control-next-icon{
+    margin-top: 18rem;
+  }
+  
 }
