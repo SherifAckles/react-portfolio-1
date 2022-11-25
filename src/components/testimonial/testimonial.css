@@ -44,6 +44,9 @@
 
 /* SM devices */
 @media screen and (max-width: 600px) {
+  #testimonial{
+    margin: 6rem auto;
+  }
   .carousel-control-prev-icon, .carousel-control-next-icon{
     margin-top: 18rem;
   }
