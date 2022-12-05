@@ -6,6 +6,7 @@ import Simon from "../../assets/simon.png";
 import Guess from "../../assets/guess.png";
 import Chatly from "../../assets/chatly-project.png";
 import Drum from "../../assets/drum.png";
+import Pig from "../../assets/pig.png";
 
 const Projects = () => {
   return (
@@ -144,12 +145,12 @@ const Projects = () => {
 
         <article className="project-item">
           <div className="project-img">
-            <img src={Crm} />
+            <img src={Pig} />
           </div>
-          <h3>CRM TOOL</h3>
+          <h3>Pig game</h3>
           <div className="project-item-cta">
             <a
-              href="https://github.com/MA5TERMIND2020/CRM-Tool"
+              href="https://github.com/nabesteron/pig-game"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -157,7 +158,7 @@ const Projects = () => {
               Github
             </a>
             <a
-              href="http://github.com"
+              href="https://pig-game-sherif-moustafa.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
