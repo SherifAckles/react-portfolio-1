@@ -103,7 +103,7 @@ const Projects = () => {
               Github
             </a>
             <a
-              href="https://chatly101.netlify.app/login"
+              href="https://chatly101.netlify.app"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
