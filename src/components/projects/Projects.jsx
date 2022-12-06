@@ -7,6 +7,7 @@ import Guess from "../../assets/guess.png";
 import Chatly from "../../assets/chatly-project.png";
 import Drum from "../../assets/drum.png";
 import Pig from "../../assets/pig.png";
+import Fizz from "../../assets/fizz buzz.png";
 
 const Projects = () => {
   return (
@@ -159,6 +160,31 @@ const Projects = () => {
             </a>
             <a
               href="https://pig-game-sherif-moustafa.netlify.app/"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>{" "}
+            {/*image projects link */}
+          </div>
+        </article>
+        <article className="project-item">
+          <div className="project-img">
+            <img src={Fizz} />
+          </div>
+          <h3>Fizz Buzz app</h3>
+          <div className="project-item-cta">
+            <a
+              href="https://github.com/nabesteron/fizz-buzz-app"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://fizz-buzz-app-sherif.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
