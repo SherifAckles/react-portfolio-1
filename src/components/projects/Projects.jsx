@@ -8,12 +8,15 @@ import Chatly from "../../assets/chatly-project.png";
 import Drum from "../../assets/drum.png";
 import Pig from "../../assets/pig.png";
 import Fizz from "../../assets/fizz buzz.png";
+import Dragon from "../../assets/dragon-fire-game.png";
 
 const Projects = () => {
   return (
     <section id="projects">
       <h2>My recent projects</h2>
       <div className="project-container">
+
+        {/* CRM PROJECT */}
         <article className="project-item">
           <div className="project-img">
             <img src={Crm} />
@@ -40,6 +43,7 @@ const Projects = () => {
           </div>
         </article>
 
+        {/* SIMON GAME PROJECT */}
         <article className="project-item">
           <div className="project-img">
             <img src={Simon} />
@@ -66,6 +70,7 @@ const Projects = () => {
           </div>
         </article>
 
+        {/* GUESS THE NUMBER GAME PROJECT  */}
         <article className="project-item">
           <div className="project-img">
             <img src={Guess} />
@@ -92,7 +97,8 @@ const Projects = () => {
           </div>
         </article>
 
-        <article className="project-item">
+        {/* CHATLY CHAT APP PROJECT */}
+              <article className="project-item">
           <div className="project-img">
             <img src={Chatly} />
           </div>
@@ -118,6 +124,7 @@ const Projects = () => {
           </div>
         </article>
 
+        {/* DRUM KIT PROJECT */}
         <article className="project-item">
           <div className="project-img">
             <img src={Drum} />
@@ -144,6 +151,7 @@ const Projects = () => {
           </div>
         </article>
 
+        {/* PIG GAME PROJECT */}
         <article className="project-item">
           <div className="project-img">
             <img src={Pig} />
@@ -169,6 +177,8 @@ const Projects = () => {
             {/*image projects link */}
           </div>
         </article>
+
+        {/* FIZZ BUZZ APP PROJECT */}
         <article className="project-item">
           <div className="project-img">
             <img src={Fizz} />
@@ -194,6 +204,34 @@ const Projects = () => {
             {/*image projects link */}
           </div>
         </article>
+        
+{/* DRAGON FIRE GAME PROJECT */}
+        <article className="project-item">
+          <div className="project-img">
+            <img src={Dragon} />
+          </div>
+          <h3>Dragon fire game</h3>
+          <div className="project-item-cta">
+            <a
+              href="https://github.com/nabesteron/dragon-fire"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://dragon-fire-sherif-moustafa.netlify.app/"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>{" "}
+            {/*image projects link */}
+          </div>
+        </article>
+
       </div>
     </section>
   );
