@@ -6,6 +6,9 @@ import { FiSmartphone } from "react-icons/fi";
 import emailjs from "emailjs-com";
 
 const contact = () => {
+  //reate a reference to the form element
+  // to have a direct reference to the form element and to access the current property of it,
+  //which holds the actual DOM element, this way it allows the sendEmail function to access the form's data and to reset it after the sending the email.
   const form = UseRef(); // useref with u small won't work so we have to import useref as UseRef
   const sendEmail = (e) => {
     e.preventDefault();
