@@ -2,7 +2,7 @@
 import React from "react";
 import "./projects.css";
 import Crm from "../../assets/crm.jpg";
-import Simon from "../../assets/simon.png";
+import tours from "../../assets/tours.png";
 import Guess from "../../assets/guess.png";
 import Chatly from "../../assets/chatly-project.png";
 import Drum from "../../assets/drum.png";
@@ -48,10 +48,10 @@ const Projects = () => {
           <div className="project-img">
             <img src={Simon} />
           </div>
-          <h3>simon game</h3>
+          <h3>Tours</h3>
           <div className="project-item-cta">
             <a
-              href="https://github.com/nabesteron/Simon-game"
+              href="https://github.com/SherifAckles/tours"
               className="btn"
               target="_blank"
               rel="noreferrer"
