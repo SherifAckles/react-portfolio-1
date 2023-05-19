@@ -15,6 +15,10 @@ const Projects = () => {
     <section id="projects">
       <h2>My recent projects</h2>
       <div className="project-container">
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
         {/* CRM PROJECT */}
         <article className="project-item">
           <div className="project-img">
@@ -45,7 +49,15 @@ const Projects = () => {
         {/* SIMON GAME PROJECT */}
         <article className="project-item">
           <div className="project-img">
+<<<<<<< HEAD
             <img src={tours} />
+=======
+<<<<<<< HEAD
+            <img src={tours} />
+=======
+            <img src={Simon} />
+>>>>>>> 7134363d9ec35acaa0495331a9cce0a3210f3c80
+>>>>>>> origin/master
           </div>
           <h3>Tours</h3>
           <div className="project-item-cta">
@@ -97,7 +109,11 @@ const Projects = () => {
         </article>
 
         {/* CHATLY CHAT APP PROJECT */}
+<<<<<<< HEAD
         <article className="project-item">
+=======
+              <article className="project-item">
+>>>>>>> origin/master
           <div className="project-img">
             <img src={Chatly} />
           </div>
@@ -203,8 +219,13 @@ const Projects = () => {
             {/*image projects link */}
           </div>
         </article>
+<<<<<<< HEAD
 
         {/* DRAGON FIRE GAME PROJECT */}
+=======
+        
+{/* DRAGON FIRE GAME PROJECT */}
+>>>>>>> origin/master
         <article className="project-item">
           <div className="project-img">
             <img src={Dragon} />
@@ -230,6 +251,10 @@ const Projects = () => {
             {/*image projects link */}
           </div>
         </article>
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
       </div>
     </section>
   );

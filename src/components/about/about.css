@@ -3,8 +3,12 @@
   grid-template-columns: 25% 85%; /* it defines the line names and track sizing functions of the grid columns */
   gap: 5%;
 }
+
 .about__me {
   width: 85%;
+  grid-template-columns: 32% 50%; /* it defines the line names and track sizing functions of the grid columns */
+  gap: 15%;
+
   border-radius: 1.7rem;
   aspect-ratio: 1/1;
   background: linear-gradient(
@@ -27,11 +31,17 @@
   transform: rotate(0deg);
 }
 
+.about__cards {
+  display: grid;
+  gap: 1.5rem;
+}
+
 .about__card {
   background: var(--color-bg-variant);
   border: 1px solid transparent;
   border-radius: 1rem;
   padding: 1.5rem;
+  text-align: center;
   transition: var(--transition);
 }
 .about__card:hover {
@@ -54,6 +64,8 @@
 }
 .about__content p {
   margin: 2rem 0 2.6rem;
+  font-size: 0.7rem;
+  color: var(--color-light);
 }
 
 /* -----------Media Query----------- */
