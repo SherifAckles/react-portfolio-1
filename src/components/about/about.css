@@ -1,0 +1,91 @@
+.about__container {
+  display: grid;
+  grid-template-columns: 25% 85%; /* it defines the line names and track sizing functions of the grid columns */
+  gap: 5%;
+}
+.about__me {
+  width: 85%;
+  border-radius: 1.7rem;
+  aspect-ratio: 1/1;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  display: grid; /* must be grid to excute the next step */
+  place-items: center; /* puts the img in the middle */
+}
+.about__me-image {
+  width: 100%;
+  border-radius: 1.7rem;
+  overflow: hidden; /* to excute the border radius we should have the overflow hidden */
+  transform: rotate(-12deg);
+  transition: var(--transition);
+}
+.about__me-image:hover {
+  transform: rotate(0deg);
+}
+
+.about__card {
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  transition: var(--transition);
+}
+.about__card:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+}
+.about__icon {
+  font-size: 1.4rem;
+  color: var(--color-primary);
+  margin: 0 auto 1rem;
+}
+.about__card h5 {
+  font-size: 0.95rem;
+}
+.about__card small {
+  font-size: 0.9rem;
+  color: var(--color-light);
+  align-items: start;
+  text-align: center;
+}
+.about__content p {
+  margin: 2rem 0 2.6rem;
+}
+
+/* -----------Media Query----------- */
+/* MD devices */
+@media screen and (max-width: 1024px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .about__me {
+    width: 50%;
+    margin: 2rem auto 5rem auto;
+  }
+  .about__content p {
+    margin: 2rem 0 1.5rem;
+  }
+}
+
+/* SM devices */
+@media screen and (max-width: 600px) {
+  .about__me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+  .about__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .about__content {
+    text-align: center;
+  }
+  .about__content p {
+    margin: 1.5rem 0;
+  }
+}
