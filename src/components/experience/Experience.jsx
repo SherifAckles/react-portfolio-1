@@ -12,25 +12,13 @@ const experience = () => {
           <div className="experience__content">
             <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon" />
-<<<<<<< HEAD
 
               <h4>React JS</h4>
-=======
-<<<<<<< HEAD
-              <h4>React JS</h4>
-=======
-              <h4>HTML</h4>
->>>>>>> 7134363d9ec35acaa0495331a9cce0a3210f3c80
->>>>>>> origin/master
             </article>
 
             <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon" />
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
->>>>>>> origin/master
               <h4>jQuery</h4>
             </article>
 
@@ -42,12 +30,6 @@ const experience = () => {
             <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon" />
               <h4>Sass</h4>
-<<<<<<< HEAD
-=======
-=======
-              <h4>CSS</h4>
->>>>>>> 7134363d9ec35acaa0495331a9cce0a3210f3c80
->>>>>>> origin/master
             </article>
 
             <article className="experience-details">
@@ -57,44 +39,17 @@ const experience = () => {
 
             <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon " />
-<<<<<<< HEAD
 
               <h4>CSS</h4>
-=======
-<<<<<<< HEAD
-              <h4>CSS</h4>
-=======
-              <h4>JavaScript</h4>
->>>>>>> 7134363d9ec35acaa0495331a9cce0a3210f3c80
->>>>>>> origin/master
             </article>
 
             <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon " />
-<<<<<<< HEAD
-
               <h4>HTML</h4>
-=======
-<<<<<<< HEAD
-              <h4>HTML</h4>
-=======
-              <h4>JQuery</h4>
->>>>>>> 7134363d9ec35acaa0495331a9cce0a3210f3c80
->>>>>>> origin/master
             </article>
-
             <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon " />
-<<<<<<< HEAD
-
               <h4>Figma</h4>
-=======
-<<<<<<< HEAD
-              <h4>Figma</h4>
-=======
-              <h4>React JS</h4>
->>>>>>> 7134363d9ec35acaa0495331a9cce0a3210f3c80
->>>>>>> origin/master
             </article>
           </div>
         </div>

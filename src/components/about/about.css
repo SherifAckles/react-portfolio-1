@@ -1,14 +1,11 @@
 .about__container {
   display: grid;
   grid-template-columns: 25% 85%; /* it defines the line names and track sizing functions of the grid columns */
-  gap: 5%;
+  gap: 2%;
 }
 
 .about__me {
   width: 85%;
-  grid-template-columns: 32% 50%; /* it defines the line names and track sizing functions of the grid columns */
-  gap: 15%;
-
   border-radius: 1.7rem;
   aspect-ratio: 1/1;
   background: linear-gradient(
@@ -41,7 +38,7 @@
   border: 1px solid transparent;
   border-radius: 1rem;
   padding: 1.5rem;
-  text-align: center;
+  text-align: left;
   transition: var(--transition);
 }
 .about__card:hover {
@@ -90,10 +87,7 @@
     width: 65%;
     margin: 0 auto 3rem;
   }
-  .about__cards {
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-  }
+ 
   .about__content {
     text-align: center;
   }
