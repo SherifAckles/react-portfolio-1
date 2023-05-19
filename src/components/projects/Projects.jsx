@@ -46,7 +46,11 @@ const Projects = () => {
         {/* SIMON GAME PROJECT */}
         <article className="project-item">
           <div className="project-img">
+<<<<<<< HEAD
             <img src={tours} />
+=======
+            <img src={Simon} />
+>>>>>>> 7134363d9ec35acaa0495331a9cce0a3210f3c80
           </div>
           <h3>Tours</h3>
           <div className="project-item-cta">
