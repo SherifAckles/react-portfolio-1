@@ -1,21 +1,22 @@
 /* eslint-disable jsx-a11y/alt-text */
-import React from "react";
+
+import {
+  Crm,
+  tours,
+  Guess,
+  Chatly,
+  Drum,
+  Pig,
+  Fizz,
+  Dragon,
+} from "./projectPhotos";
 import "./projects.css";
-import Crm from "../../assets/crm.jpg";
-import tours from "../../assets/tours.png";
-import Guess from "../../assets/guess.png";
-import Chatly from "../../assets/chatly-project.png";
-import Drum from "../../assets/drum.png";
-import Pig from "../../assets/pig.png";
-import Fizz from "../../assets/fizz buzz.png";
-import Dragon from "../../assets/dragon-fire-game.png";
 
 const Projects = () => {
   return (
     <section id="projects">
       <h2>My recent projects</h2>
       <div className="project-container">
-
         {/* CRM PROJECT */}
         <article className="project-item">
           <div className="project-img">
@@ -46,9 +47,7 @@ const Projects = () => {
         {/* SIMON GAME PROJECT */}
         <article className="project-item">
           <div className="project-img">
-
             <img src={tours} />
-
           </div>
           <h3>Tours</h3>
           <div className="project-item-cta">
@@ -101,10 +100,7 @@ const Projects = () => {
 
         {/* CHATLY CHAT APP PROJECT */}
 
-        
-
-              <article className="project-item">
-
+        <article className="project-item">
           <div className="project-img">
             <img src={Chatly} />
           </div>
@@ -211,8 +207,7 @@ const Projects = () => {
           </div>
         </article>
 
-        
-{/* DRAGON FIRE GAME PROJECT */}
+        {/* DRAGON FIRE GAME PROJECT */}
 
         <article className="project-item">
           <div className="project-img">
@@ -239,7 +234,6 @@ const Projects = () => {
             {/*image projects link */}
           </div>
         </article>
-
       </div>
     </section>
   );
