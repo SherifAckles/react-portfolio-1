@@ -1,6 +1,6 @@
 import React from "react";
 import Articles from "./Articles";
-import { articleData } from "./ExperienceData";
+import { articleData } from "./articleData";
 import "./experience.css";
 
 const Experience = () => {
