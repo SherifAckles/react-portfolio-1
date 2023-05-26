@@ -1,4 +1,4 @@
-import React from "react";
+
 
 import Crm from "../../assets/crm.jpg";
 import tours from "../../assets/tours.png";

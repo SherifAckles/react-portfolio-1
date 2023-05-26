@@ -9,7 +9,7 @@ import {
   Pig,
   Fizz,
   Dragon,
-} from "./projectPhotos";
+} from "./Photos";
 import "./projects.css";
 
 const Projects = () => {
@@ -60,12 +60,13 @@ const Projects = () => {
               Github
             </a>
             <a
-              href="https://simon-game-sherif-moustafa.netlify.app"
+              href="https://"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
             >
-              Live Demo
+              {/* Live Demo */}
+              Coming soon
             </a>{" "}
             {/*image projects link */}
           </div>
