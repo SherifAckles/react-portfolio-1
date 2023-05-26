@@ -1,8 +1,9 @@
 import React from "react";
+import Articles from "./Articles";
+import { articleData } from "./ExperienceData";
 import "./experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
 
-const experience = () => {
+const Experience = () => {
   return (
     <section id="experience">
       <h2>Experience</h2>
@@ -10,47 +11,9 @@ const experience = () => {
         <div className="experience__frontend">
           <h3 className="mb-5">Frontend Development</h3>
           <div className="experience__content">
-            <article className="experience-details">
-              <BsPatchCheckFill className="experience-details-icon" />
-
-              <h4>React JS</h4>
-            </article>
-
-            <article className="experience-details">
-              <BsPatchCheckFill className="experience-details-icon" />
-
-              <h4>jQuery</h4>
-            </article>
-
-            <article className="experience-details">
-              <BsPatchCheckFill className="experience-details-icon " />
-              <h4>JavaScript</h4>
-            </article>
-
-            <article className="experience-details">
-              <BsPatchCheckFill className="experience-details-icon" />
-              <h4>Sass</h4>
-            </article>
-
-            <article className="experience-details">
-              <BsPatchCheckFill className="experience-details-icon " />
-              <h4>Bootstrap</h4>
-            </article>
-
-            <article className="experience-details">
-              <BsPatchCheckFill className="experience-details-icon " />
-
-              <h4>CSS</h4>
-            </article>
-
-            <article className="experience-details">
-              <BsPatchCheckFill className="experience-details-icon " />
-              <h4>HTML</h4>
-            </article>
-            <article className="experience-details">
-              <BsPatchCheckFill className="experience-details-icon " />
-              <h4>Figma</h4>
-            </article>
+            {articleData.map((article, index) => (
+              <Articles key={index} article={article} />
+            ))}
           </div>
         </div>
       </div>
@@ -58,4 +21,4 @@ const experience = () => {
   );
 };
 
-export default experience;
+export default Experience;
