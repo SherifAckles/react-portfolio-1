@@ -5,7 +5,7 @@ import Carl from "../../assets/carl.png";
 import Jane from "../../assets/janetest.png";
 import KellyM from "../../assets/KellyM.png";
 
-function Testimonial() {
+function testimonial() {
   return (
     <div id="testimonials">
       <h2 className="test-h2">Testimonials</h2>
@@ -59,4 +59,4 @@ function Testimonial() {
     </div>
   );
 }
-export default Testimonial;
+export default testimonial;
