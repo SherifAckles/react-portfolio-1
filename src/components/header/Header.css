@@ -1,0 +1,70 @@
+header {
+  height: 100vh;
+  overflow: hidden;
+  padding-top: 7rem;
+}
+.header__container {
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+.header__container > h1 {
+  letter-spacing: 5px;
+}
+.I {
+  background: var(--color-primary);
+}
+
+/* --------CTA-------- */
+.cta {
+  display: flex;
+  margin-top: 2.5rem;
+  gap: 1.2rem;
+  justify-content: center;
+}
+/* ------------Socials------------ */
+.Socials {
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+}
+.Socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+/* ------------me------------ */
+.me {
+  display: block;
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 22rem;
+  margin: 4rem auto;
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  border-radius: 12rem 12rem 0 0;
+}
+
+/* -----------Media Query----------- */
+/* MD devices */
+@media screen and (max-width: 1024px) {
+  header {
+    height: 68vh;
+  }
+}
+
+/* SM devices */
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+  .Socials,
+  .scroll__down {
+    display: none;
+  }
+}
