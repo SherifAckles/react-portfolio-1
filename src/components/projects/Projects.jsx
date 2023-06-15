@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { getProjects } from '../../'
-import { Crm, tours, Guess, Chatly, Drum, Pig, Fizz, Dragon } from "./Photos";
+import { getProjects } from "../../";
+import { Crm, tours, Chatly, Pig, Voz, Fizz } from "./Photos";
 import "./projects.css";
 
 const Projects = () => {
@@ -34,7 +34,6 @@ const Projects = () => {
             {/*image projects link */}
           </div>
         </article>
-
         {/* TOURS PROJECT */}
         <article className="project-item">
           <div className="project-img">
@@ -62,9 +61,7 @@ const Projects = () => {
             {/*image projects link */}
           </div>
         </article>
-
         {/* CHATLY CHAT APP PROJECT */}
-
         <article className="project-item">
           <div className="project-img">
             <img src={Chatly} />
@@ -90,7 +87,6 @@ const Projects = () => {
             {/*image projects link */}
           </div>
         </article>
-
         {/* PIG GAME PROJECT */}
         <article className="project-item">
           <div className="project-img">
@@ -117,7 +113,6 @@ const Projects = () => {
             {/*image projects link */}
           </div>
         </article>
-
         {/* FIZZ BUZZ APP PROJECT */}
         <article className="project-item">
           <div className="project-img">
@@ -145,16 +140,15 @@ const Projects = () => {
           </div>
         </article>
 
-        {/* DRAGON FIRE GAME PROJECT */}
-
+        {/* LA VOZ DE BOGOTA */}
         <article className="project-item">
           <div className="project-img">
-            <img src={Dragon} />
+            <img src={Voz} />
           </div>
-          <h3>Dragon fire game</h3>
+          <h3>La voz de Bogota radio</h3>
           <div className="project-item-cta">
             <a
-              href="https://github.com/nabesteron/dragon-fire"
+              href="https://github.com/SherifAckles/la-vos-de-bogota-2"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -162,7 +156,7 @@ const Projects = () => {
               Github
             </a>
             <a
-              href="https://dragon-fire-sherif-moustafa.netlify.app/"
+              href="https://la-voz-de-bogota.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"

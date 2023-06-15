@@ -2,11 +2,11 @@
 
 import Crm from "../../assets/crm.jpg";
 import tours from "../../assets/tours.png";
-import Guess from "../../assets/guess.png";
+
 import Chatly from "../../assets/chatly-project.png";
-import Drum from "../../assets/drum.png";
+import Voz from "../../assets/voz.png";
 import Pig from "../../assets/pig.png";
 import Fizz from "../../assets/fizz buzz.png";
-import Dragon from "../../assets/dragon-fire-game.png";
 
-export { Crm, tours, Guess, Chatly, Drum, Pig, Fizz, Dragon };
+
+export { Crm, tours, Chatly, Pig,Voz, Fizz };
