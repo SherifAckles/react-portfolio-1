@@ -3,7 +3,7 @@ import Carl from "../../assets/carl.png";
 import Jane from "../../assets/janetest.png";
 import KellyM from "../../assets/KellyM.png";
 
-export const testimonialData = [
+ const testimonialData = [
   {
     id: 1,
     testimonial:
@@ -25,4 +25,5 @@ export const testimonialData = [
     image: KellyM,
     from: "Carl Milano, New York",
   },
-];
+ ];
+export default testimonialData;

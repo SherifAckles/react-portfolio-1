@@ -44,7 +44,7 @@ const Projects = () => {
           </div>
         </article>
 
-        {/* SIMON GAME PROJECT */}
+        {/* TOURS PROJECT */}
         <article className="project-item">
           <div className="project-img">
             <img src={tours} />
@@ -72,32 +72,7 @@ const Projects = () => {
           </div>
         </article>
 
-        {/* GUESS THE NUMBER GAME PROJECT  */}
-        <article className="project-item">
-          <div className="project-img">
-            <img src={Guess} />
-          </div>
-          <h3>Guess the number game</h3>
-          <div className="project-item-cta">
-            <a
-              href="https://github.com/nabesteron/Guess-the-number-game"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github
-            </a>
-            <a
-              href="https://guess-the-number-game-sherif-moustafa.netlify.app/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Demo
-            </a>
-            {/*image projects link */}
-          </div>
-        </article>
+      
 
         {/* CHATLY CHAT APP PROJECT */}
 
@@ -127,32 +102,7 @@ const Projects = () => {
           </div>
         </article>
 
-        {/* DRUM KIT PROJECT */}
-        <article className="project-item">
-          <div className="project-img">
-            <img src={Drum} />
-          </div>
-          <h3>Drum Kit</h3>
-          <div className="project-item-cta">
-            <a
-              href="https://github.com/nabesteron/Drum-Kit"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github
-            </a>
-            <a
-              href="https://drum-kit-sherif.netlify.app/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Demo
-            </a>
-            {/*image projects link */}
-          </div>
-        </article>
+        
 
         {/* PIG GAME PROJECT */}
         <article className="project-item">

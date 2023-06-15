@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./testimonial.css";
 
-import { testimonialData } from "./testimonialData";
+import  testimonialData  from "./testimonialData";
 
 function Testimonial() {
   return (
