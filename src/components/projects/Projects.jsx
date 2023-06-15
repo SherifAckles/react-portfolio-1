@@ -1,15 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
-
-import {
-  Crm,
-  tours,
-  Guess,
-  Chatly,
-  Drum,
-  Pig,
-  Fizz,
-  Dragon,
-} from "./Photos";
+import { getProjects } from '../../'
+import { Crm, tours, Guess, Chatly, Drum, Pig, Fizz, Dragon } from "./Photos";
 import "./projects.css";
 
 const Projects = () => {
@@ -72,8 +63,6 @@ const Projects = () => {
           </div>
         </article>
 
-      
-
         {/* CHATLY CHAT APP PROJECT */}
 
         <article className="project-item">
@@ -101,8 +90,6 @@ const Projects = () => {
             {/*image projects link */}
           </div>
         </article>
-
-        
 
         {/* PIG GAME PROJECT */}
         <article className="project-item">
