@@ -11,21 +11,22 @@
   padding: 1.2rem;
   border-radius: 2rem;
   border: 1px solid transparent;
-  transition: var(--transition);
-  opacity: 90%;
+  transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .project-item:hover {
   border-color: var(--color-primary-variant);
-  background: transparent;
+  background-color: var(--color-bg-primary);
 }
+
 .project-img {
   border-radius: 1rem;
   overflow: hidden;
+  transition: transform 0.3s ease-in-out;
 }
 
-.project-img:hover {
-  width: 20rem;
+.project-item:hover .project-img {
+  transform: scale(1.05);
 }
 
 .project-item h3 {
