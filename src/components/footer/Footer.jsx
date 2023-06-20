@@ -1,47 +1,52 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./footer.css";
-import { AiFillFacebook } from "react-icons/ai";
-import { AiFillInstagram } from "react-icons/ai";
-import { AiFillTwitterSquare } from "react-icons/ai";
+import {
+  AiFillFacebook,
+  AiFillInstagram,
+  AiFillTwitterSquare,
+} from "react-icons/ai";
+
 const Footer = () => {
+  const links = [
+    { href: "#", text: "Home" },
+    { href: "#about", text: "About" },
+    { href: "#experience", text: "Experience" },
+    { href: "#projects", text: "Projects" },
+    { href: "#Reviews", text: "Reviews" },
+    { href: "#contact", text: "Contact" },
+  ];
+
+  const socialLinks = [
+    {
+      href: "https://facebook.com/Jensen.rose.Ackles",
+      icon: <AiFillFacebook />,
+    },
+    { href: "https://instagram.com", icon: <AiFillInstagram /> },
+    { href: "https://twitter.com", icon: <AiFillTwitterSquare /> },
+  ];
+
   return (
     <footer>
-      <a href="#" className="footer-logo">
+      <a href="#footer" className="footer-logo">
         Ackles
       </a>
+
       <ul className="footer-links">
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#experience">Experience</a>
-        </li>
-        <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
-          <a href="#testimonial">Testimonial</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
+        {links.map(({ href, text }) => (
+          <li key={href}>
+            <a href={href}>{text}</a>
+          </li>
+        ))}
       </ul>
 
       <div className="footer-social">
-        <a href="https://facebook.com/Jensen.rose.Ackles">
-          <AiFillFacebook />
-        </a>
-        <a href="https://instagram.com">
-          <AiFillInstagram />
-        </a>
-        <a href="https://twitter.com">
-          <AiFillTwitterSquare />
-        </a>
+        {socialLinks.map(({ href, icon }) => (
+          <a key={href} href={href}>
+            {icon}
+          </a>
+        ))}
       </div>
+
       <div className="footer-copyright">
         <small>&copy;Sherif Ackles</small>
       </div>

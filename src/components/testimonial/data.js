@@ -3,7 +3,7 @@ import Carl from "../../assets/carl.png";
 import Jane from "../../assets/janetest.png";
 import KellyM from "../../assets/KellyM.png";
 
- const testimonialData = [
+ const people = [
   {
     id: 1,
     testimonial:
@@ -26,4 +26,4 @@ import KellyM from "../../assets/KellyM.png";
     from: "Carl Milano, New York",
   },
  ];
-export default testimonialData;
+export default people

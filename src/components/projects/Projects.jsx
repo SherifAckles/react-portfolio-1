@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { getProjects } from "../../";
+import ProjectArray from './projectArray'
 import { Crm, tours, Chatly, Pig, Voz, Fizz } from "./Photos";
 import "./projects.css";
 
