@@ -14,13 +14,13 @@
     var(--color-primary),
     transparent
   );
-  display: grid; /* must be grid to excute the next step */
+  display: grid; /* must be grid to execute the next step */
   place-items: center; /* puts the img in the middle */
 }
 .about__me-image {
   width: 100%;
   border-radius: 1.7rem;
-  overflow: hidden; /* to excute the border radius we should have the overflow hidden */
+  overflow: hidden; /* to execute the border radius we should have the overflow hidden */
   transform: rotate(-12deg);
   transition: var(--transition);
 }

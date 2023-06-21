@@ -16,7 +16,7 @@ const Nav = () => {
     { id: "#", icon: <AiFillHome /> },
     { id: "#about", icon: <AiOutlineUser /> },
     { id: "#experience", icon: <BiBook /> },
-    { id: "#projects", icon: <RiServiceLine /> },
+    { id: "#projects-section", icon: <RiServiceLine /> },
     { id: "#Reviews", icon: <AiOutlineUsergroupDelete /> },
     { id: "#contact", icon: <AiOutlineMessage /> },
   ];
