@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
-import { useSpring, animated, config } from "react-spring";
+import { useSpring, animated} from "react-spring";
 import "./projects.css";
 import ProjectArray from "./projectArray";
 
 const Projects = () => {
-  const [projects, setProjects] = useState(ProjectArray);
+  const [projects] = useState(ProjectArray);
   const [scrollVisible, setScrollVisible] = useState(false);
   const projectsRef = useRef(null);
   const springProps = useSpring({

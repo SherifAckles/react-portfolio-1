@@ -10,7 +10,15 @@ function Reviews() {
   const [people] = useState(data);
   const [index, setIndex] = useState(0);
   const { springProps, reviewsRef } = useSpringAnimation();
-
+// =====================================
+  // ADDING THE AUTO SLIDING
+  useEffect(() => {
+  let slider= setInterval(() => {
+   setIndex(index+1)
+  }, 3000);
+    return()=> clearInterval(slider)
+},[index])
+// =====================================
   useEffect(() => {
     const lastIndex = people.length - 1;
     if (index < 0) {
