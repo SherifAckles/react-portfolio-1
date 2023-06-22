@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import { FaQuoteRight } from "react-icons/fa";
-import {  animated } from "react-spring";
+import { animated } from "react-spring";
 import data from "./data";
 import "./testimonial.css";
 import useSpringAnimation from "../../hooks/useSpringAnimation";
@@ -10,24 +10,44 @@ function Reviews() {
   const [people] = useState(data);
   const [index, setIndex] = useState(0);
   const { springProps, reviewsRef } = useSpringAnimation();
-// =====================================
-  // ADDING THE AUTO SLIDING
-  useEffect(() => {
-  let slider= setInterval(() => {
-   setIndex(index+1)
-  }, 3000);
-    return()=> clearInterval(slider)
-},[index])
-// =====================================
+  const [hovered, setHovered] = useState(false);
+
   useEffect(() => {
     const lastIndex = people.length - 1;
-    if (index < 0) {
-      setIndex(lastIndex);
+    let slider = null;
+
+    const startSlider = () => {
+      slider = setInterval(() => {
+        setIndex((prevIndex) => (prevIndex === lastIndex ? 0 : prevIndex + 1));
+      }, 3000);
+    };
+
+    if (!hovered) {
+      startSlider();
     }
-    if (index > lastIndex) {
-      setIndex(0);
-    }
-  }, [index, people]);
+
+    return () => clearInterval(slider);
+  }, [index, hovered, people]);
+
+  const handleMouseEnter = () => {
+    setHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setHovered(false);
+  };
+
+  const prevSlide = () => {
+    setIndex((prevIndex) =>
+      prevIndex === 0 ? people.length - 1 : prevIndex - 1
+    );
+  };
+
+  const nextSlide = () => {
+    setIndex((prevIndex) =>
+      prevIndex === people.length - 1 ? 0 : prevIndex + 1
+    );
+  };
 
   return (
     <animated.section
@@ -35,6 +55,8 @@ function Reviews() {
       id="Reviews"
       style={springProps}
       ref={reviewsRef}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     >
       <div className="title">
         <h2>
@@ -64,10 +86,10 @@ function Reviews() {
             </animated.main>
           );
         })}
-        <button onClick={() => setIndex(index - 1)} className="prev">
+        <button onClick={prevSlide} className="prev">
           <FiChevronLeft />
         </button>
-        <button onClick={() => setIndex(index + 1)} className="next">
+        <button onClick={nextSlide} className="next">
           <FiChevronRight />
         </button>
       </div>
