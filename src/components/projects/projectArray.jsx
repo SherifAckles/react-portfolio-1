@@ -1,4 +1,4 @@
-import { Crm, tours, Chatly, Pig, Voz, Fizz } from "./Photos";
+import { Crm,Ipsum, tours, Chatly, Pig, Voz, Fizz } from "./Photos";
 
 const projectArray = [
   {
@@ -36,6 +36,12 @@ const projectArray = [
     image: Voz,
     github: "https://github.com/SherifAckles/la-vos-de-bogota-2",
     demo: "https://la-voz-de-bogota.netlify.app/",
+  },
+  {
+    name: "Lorem ipsum generator",
+    image: Ipsum,
+    github: "https://github.com/SherifAckles/lorem-ipsum-generator",
+    demo: "https://lorem-ipsum-generator-ackles.netlify.app",
   },
 ];
 export default projectArray;
