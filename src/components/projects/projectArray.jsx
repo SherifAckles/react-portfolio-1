@@ -1,4 +1,13 @@
-import { Crm,Ipsum, tours, Chatly, Pig, Voz, Fizz } from "./Photos";
+import {
+  Crm,
+  Ipsum,
+  tours,
+  Chatly,
+  Pig,
+  Voz,
+  Fizz,
+  ColorGenerator,
+} from "./Photos";
 
 const projectArray = [
   {
@@ -42,6 +51,12 @@ const projectArray = [
     image: Ipsum,
     github: "https://github.com/SherifAckles/lorem-ipsum-generator",
     demo: "https://lorem-ipsum-generator-ackles.netlify.app",
+  },
+  {
+    name: "Color generator generator",
+    image: ColorGenerator,
+    github: "https://github.com/SherifAckles/color-generator",
+    demo: "https://color-generator-ackles.netlify.app",
   },
 ];
 export default projectArray;
