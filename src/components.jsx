@@ -4,7 +4,7 @@ import About from "./components/about/About";
 import Experience from "./components/experience/Experience";
 import Projects from "./components/projects/Projects";
 import Testimonial from "./components/testimonial/Testimonial";
-import Contact from "./components/contact/Contact";
+import Contact from "./components/contact/contact";
 import Footer from "./components/footer/Footer";
 
 export {

@@ -17,7 +17,7 @@ const about = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Freelance React Developer</h5>
+              <h5>Freelance React Developer and an online  English teacher</h5>
               <small>
                 Developed responsive and user-friendly web applications using
                 React, HTML, CSS, and JavaScript for two prominent clients in
@@ -30,10 +30,7 @@ const about = () => {
                 <br /> Leveraged React's component-based architecture to create
                 modular and scalable codebases, enhancing code maintainability
                 and reusability.
-                <br /> Successfully integrated external APIs and third-party
-                libraries to add advanced functionality to the web applications.
-                Resolved complex technical issues and debugging tasks, ensuring
-                smooth project execution and delivery.
+                <br /> Owner and CEO of <a href="http://ingles4all.org" target="_blank" rel="noopener noreferrer">ingles4all English school</a>.
                 <br /> Received positive client feedback for the delivered
                 projects, with a focus on meeting client objectives and
                 exceeding expectations.
